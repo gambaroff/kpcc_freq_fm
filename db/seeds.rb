@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+path = Rails.root.join('db', 'seeds', "#{Rails.env}.rb")
+load path if File.exist?(path)

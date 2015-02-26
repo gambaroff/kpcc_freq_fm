@@ -14,11 +14,11 @@
 ActiveRecord::Schema.define(version: 20150226185241) do
 
   create_table "users", force: :cascade do |t|
-    t.string   "first_name"
-    t.string   "last_name"
-    t.string   "username"
-    t.string   "email"
-    t.string   "state"
+    t.integer  "uuid"
+    t.string   "user_name"
+    t.boolean  "following"
+    t.string   "user_role"
+    t.string   "history"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

@@ -1,0 +1,114 @@
+[
+    {
+        "uuid": 1,
+        "user_name": "Johnny Ferguson",
+        "following": false,
+        "user_role": "show",
+        "history": []
+    },
+    {
+        "uuid": 2,
+        "user_name": "David Hill",
+        "following": false,
+        "user_role": "show",
+        "history": []
+    },
+    {
+        "uuid": 3,
+        "user_name": "Albert Ellis",
+        "following": true,
+        "user_role": "show",
+        "history": []
+    },
+    {
+        "uuid": 4,
+        "user_name": "Janice Hayes",
+        "following": true,
+        "user_role": "user",
+        "history": []
+    },
+    {
+        "uuid": 5,
+        "user_name": "Arthur Fuller",
+        "following": false,
+        "user_role": "user",
+        "history": []
+    },
+    {
+        "uuid": 6,
+        "user_name": "Jerry Peterson",
+        "following": true,
+        "user_role": "user",
+        "history": []
+    },
+    {
+        "uuid": 7,
+        "user_name": "Rebecca Bell",
+        "following": false,
+        "user_role": "show",
+        "history": []
+    },
+    {
+        "uuid": 8,
+        "user_name": "Brandon Bishop",
+        "following": true,
+        "user_role": "show",
+        "history": []
+    },
+    {
+        "uuid": 9,
+        "user_name": "Willie Scott",
+        "following": false,
+        "user_role": "show",
+        "history": []
+    },
+    {
+        "uuid": 10,
+        "user_name": "Judith Berry",
+        "following": true,
+        "user_role": "show",
+        "history": []
+    },
+    {
+        "uuid": 11,
+        "user_name": "Judy Porter",
+        "following": true,
+        "user_role": "user",
+        "history": []
+    },
+    {
+        "uuid": 12,
+        "user_name": "Heather Hayes",
+        "following": true,
+        "user_role": "user",
+        "history": []
+    },
+    {
+        "uuid": 13,
+        "user_name": "Judy Dixon",
+        "following": false,
+        "user_role": "user",
+        "history": []
+    },
+    {
+        "uuid": 14,
+        "user_name": "Frank Morales",
+        "following": false,
+        "user_role": "user",
+        "history": []
+    },
+    {
+        "uuid": 15,
+        "user_name": "Nancy Gutierrez",
+        "following": false,
+        "user_role": "show",
+        "history": []
+    },
+    {
+        "uuid": 16,
+        "user_name": "Peter Ryan",
+        "following": true,
+        "user_role": "show",
+        "history": []
+    }
+]
