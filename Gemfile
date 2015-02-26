@@ -11,6 +11,10 @@ gem 'spring', :group => :development
 
 gem 'sqlite3'
 
+group :production do
+  gem 'rails_12factor'
+end
+
 
 
 # To use ActiveModel has_secure_password
