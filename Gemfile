@@ -2,18 +2,14 @@ source 'https://rubygems.org'
 
 
 gem 'rails', '4.2.1.rc2'
-
+gem 'bcrypt', '3.1.7'
 gem 'rails-api'
 gem 'rack-cors', :require => 'rack/cors'
 
 gem 'spring', :group => :development
 
 gem 'sqlite3'
-
-group :production do
-  gem 'rails_12factor'
-end
-
+gem 'minitest-reporters'
 
 
 # To use ActiveModel has_secure_password
