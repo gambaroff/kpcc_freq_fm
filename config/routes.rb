@@ -3,6 +3,9 @@ Rails.application.routes.draw do
 
   post '/users', to: 'users#create', as: 'create_user'
 
+  post '/user_sessions', to:'user_sessions#create', as: 'create_user_session'
+  delete '/user_sessions/', to:'user_sessions#destroy', as: 'destroy_user_session'
+
   resources :users do
     member do
       get :following, :followers
