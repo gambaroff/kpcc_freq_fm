@@ -11,13 +11,13 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
   end
 
   test "valid signup information" do
-    skip "this is a falling test" do
+    #skip "this is a falling test" do
       assert_difference 'User.count', 1 do
         post users_path, user: { user_name:  "Salvador Dali",
                                               email: "salvadordali@example.com",
                                               password:              "password",
                                               password_confirmation: "password" }
       end
-    end
+    #end
   end
 end

@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
 
+
+  post '/users', to: 'users#create', as: 'create_user'
+
   resources :users do
     member do
       get :following, :followers
