@@ -14,7 +14,7 @@ class UsersController < ApplicationController
     if @user.save
       # Handle a successful save.
     else
-      render 'new'
+      # do something
     end
   end
 
@@ -25,21 +25,19 @@ class UsersController < ApplicationController
   def following
     @title = "Following"
     @user  = User.find(params[:id])
-    @users = @user.following.paginate(page: params[:page])
-    render json: @users
+    render json: @user.following
   end
 
   def followers
     @title = "Followers"
     @user  = User.find(params[:id])
-    @users = @user.followers.paginate(page: params[:page])
-    render json: @users
+    render json: @user.followers
   end
 
   private
 
     def user_params
-      params.require(:user).permit(:name, :email, :password,
+      params.permit(:user_name, :email, :password,
                                    :password_confirmation)
     end
 end
