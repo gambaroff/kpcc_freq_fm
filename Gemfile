@@ -11,6 +11,11 @@ gem 'spring', :group => :development
 gem 'sqlite3'
 gem 'minitest-reporters'
 
+group :production do
+  gem 'rails_12factor', '0.0.2'
+  gem 'puma',           '2.11.1'
+end
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
